@@ -1,0 +1,32 @@
+@import url("../stylesheet/styles.css");
+
+body {
+  background-color: var(--fadedblue);
+}
+.nav-bar {
+  margin-bottom: 5rem;
+  padding: 0px;
+  margin-top: 0px;
+}
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: fit-content;
+  border-radius: 0.4rem;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  padding: 0 5.3rem 1.3rem;
+}
+.t-c-container {
+  display: flex;
+  gap: 1.3rem;
+}
+.inp input {
+  width: 100%;
+}
+.t-c {
+  font-size: 1.2rem;
+}
