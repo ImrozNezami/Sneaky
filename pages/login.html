@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../stylesheet/login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <p class="nav-title">MyWebsite</p>
+      <input type="text" placeholder="search" class="nav-inp" />
+      <div class="navbar-icons">
+        <button class="nav-btn">Login</button>
+        <button class="nav-icon-btn">
+          <i class="material-icons">favorite_border</i>
+          <span class="nav-icon-badge">0</span>
+        </button>
+        <button class="nav-icon-btn">
+          <i class="material-icons">shopping_cart</i>
+          <span class="nav-icon-badge">0</span>
+        </button>
+      </div>
+    </nav>
+    <div class="login-container">
+      <h2>Login</h2>
+      <div class="inp inp-normal mar-1">
+        <label>Email address</label>
+        <input type="email" placeholder="Enter text" />
+      </div>
+      <div class="inp inp-normal mar-1">
+        <label>Password</label>
+        <input type="password" placeholder="Enter text" />
+      </div>
+      <div class="password-container-1">
+        <input type="checkbox" class="ip-remember-me" />
+        <div class="remember-me">Remember me</div>
+        <button
+          class="btn-link"
+          onclick="window.location.href = 'https://neog.camp';"
+        >
+          Forgot your Password?
+        </button>
+      </div>
+      <button class="btn btn-primary lg-primary font-sm">Login</button>
+      <button
+        class="btn-link"
+        onclick="window.location.href = 'https://neog.camp';"
+      >
+        Create New Account >
+      </button>
+    </div>
+  </body>
+</html>
