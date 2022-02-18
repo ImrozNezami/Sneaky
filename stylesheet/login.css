@@ -1,3 +1,4 @@
+@import url("../stylesheet/styles.css");
 body {
   background-color: var(--fadedblue);
 }
