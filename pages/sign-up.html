@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../stylesheet/sign-up.css" />
+    <title>Sign-Up</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <p class="nav-title">MyWebsite</p>
+      <input type="text" placeholder="search" class="nav-inp" />
+      <div class="navbar-icons">
+        <button class="nav-btn">Login</button>
+        <button class="nav-icon-btn">
+          <i class="material-icons">favorite_border</i>
+          <span class="nav-icon-badge">0</span>
+        </button>
+        <button class="nav-icon-btn">
+          <i class="material-icons">shopping_cart</i>
+          <span class="nav-icon-badge">0</span>
+        </button>
+      </div>
+    </nav>
+    <div class="signup-container">
+      <h2>Signup</h2>
+      <div class="inp inp-normal mar-1">
+        <label>Email address</label>
+        <input type="email" placeholder="Enter e-mail" />
+      </div>
+      <div class="inp inp-normal mar-1">
+        <label>First Name</label>
+        <input type="password" placeholder="Enter first-name" />
+      </div>
+      <div class="inp inp-normal mar-1">
+        <label>Last Name</label>
+        <input type="password" placeholder="Enter last-name" />
+      </div>
+      <div class="inp inp-normal mar-1">
+        <label>Password </label>
+        <input type="password" placeholder="Enter password" />
+      </div>
+      <button class="btn-icon">
+        <i class="material-icons font-md">visibility</i>
+      </button>
+      <div class="inp inp-normal mar-1">
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Confirm password" />
+      </div>
+      <div class="t-c-container">
+        <input type="checkbox" class="ip-t-c" />
+        <div class="t-c">I accept all Terms & Conditions</div>
+      </div>
+      <button class="btn btn-primary lg-primary font-sm">
+        Create New Account
+      </button>
+      <button
+        class="btn-link"
+        onclick="window.location.href = 'https://neog.camp';"
+      >
+        Already have an account >
+      </button>
+    </div>
+  </body>
+</html>
