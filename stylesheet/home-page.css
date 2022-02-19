@@ -1,0 +1,69 @@
+@import url("../stylesheet/styles.css");
+
+.home-page-img-container {
+  display: flex;
+  margin-top: 2.6rem;
+  flex-wrap: wrap;
+}
+.home-page-img-card {
+  position: relative;
+  width: 40%;
+  margin: auto;
+}
+.home-page-img-card:hover,
+.vertical-card:hover {
+  z-index: 1;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+.home-page-img-text-overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--white);
+  width: 100%;
+  padding-top: 4px;
+  font-size: 1.2rem;
+}
+.home-page-content {
+  display: flex;
+  padding: 1.3rem;
+  gap: 2.3rem;
+  text-align: center;
+  align-items: center;
+  background-color: var(--fadedblue);
+}
+.home-page-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+}
+.home-page-info {
+  font-size: 1.3rem;
+}
+.home-page-intro {
+  font-weight: bold;
+}
+.btn-explore {
+  padding: 4px;
+  margin-bottom: 8px;
+  width: 100%;
+  border: none;
+  background: none;
+  font-size: 1.3rem;
+  opacity: 0;
+  transform: translateY(5px);
+  transition: 0.2s all;
+}
+.home-page-img-card:hover > .btn-explore {
+  opacity: 1;
+  transition: translateY(5px);
+  cursor: pointer;
+}
+.home-page-new-arrivals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-bottom: 2.3rem;
+}
