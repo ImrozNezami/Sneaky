@@ -1,0 +1,122 @@
+@import url("../stylesheet/styles.css");
+
+body {
+  background-color: var(--gray);
+}
+.cart-card {
+  display: flex;
+  height: 20rem;
+  width: 30rem;
+  max-width: 100%;
+  gap: 1.3rem;
+  background-color: var(--white);
+}
+.cart-img-container {
+  max-width: 15rem;
+}
+.cart-img {
+  width: 100%;
+  height: 100%;
+}
+.cart-card-body {
+  width: 100%;
+  max-width: 18rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  justify-content: space-between;
+}
+.product-name {
+  font-size: 1.3rem;
+}
+.price-container {
+  display: flex;
+  gap: 7px;
+}
+.final-price {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.original-price {
+  margin-top: 7px;
+  text-decoration: line-through;
+}
+.discount {
+  font-size: 1.2rem;
+}
+.quantity-container {
+  display: flex;
+  gap: 10px;
+}
+.remove-product,
+.add-product {
+  background: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.product-quantity {
+  border: 1px solid black;
+  padding: 2px 8px;
+  border-radius: 2px;
+}
+.remove-cart,
+.add-wishlist {
+  background: none;
+  border: 1px solid black;
+  padding: 9px;
+  font-weight: bold;
+  margin: 0px 10px 10px 0px;
+  cursor: pointer;
+}
+.remove-cart {
+  background-color: var(--darkgray);
+}
+.price-details-container {
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 5rem;
+  height: fit-content;
+  width: 30rem;
+  max-width: 100%;
+  gap: 8px;
+  background-color: var(--white);
+}
+.price-detail,
+.discount-detail,
+.delivery-charge-detail,
+.total-amount {
+  display: flex;
+  font-size: 1.1rem;
+}
+.total-price,
+.total-discount,
+.total-delivery-charge,
+.total-amount-value {
+  margin-left: auto;
+}
+.price-detail {
+  border-top: 1px solid;
+  padding-top: 10px;
+}
+.total-amount {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 10px 0px;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.cart-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 13px;
+}
+.lg-primary {
+  width: 95%;
+}
