@@ -9,15 +9,27 @@
   </head>
   <body>
     <nav class="nav-bar">
-      <p class="nav-title">MyWebsite</p>
+      <p class="nav-title">Sneaky</p>
       <input type="text" placeholder="search" class="nav-inp" />
       <div class="navbar-icons">
-        <button class="nav-btn">Login</button>
-        <button class="nav-icon-btn">
+        <button class="nav-btn"><a href="sign-up.html">Sign-Up</a></button>
+        <button
+          class="btn-link"
+          onclick="window.location.href = 'product-listing.html';"
+        >
+          Product
+        </button>
+        <button
+          class="nav-icon-btn"
+          onclick="window.location.href = 'wishlist.html';"
+        >
           <i class="material-icons">favorite_border</i>
           <span class="nav-icon-badge">0</span>
         </button>
-        <button class="nav-icon-btn">
+        <button
+          class="nav-icon-btn"
+          onclick="window.location.href = 'cart-page.html';"
+        >
           <i class="material-icons">shopping_cart</i>
           <span class="nav-icon-badge">0</span>
         </button>
